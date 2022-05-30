@@ -7,6 +7,33 @@ public class Main {
 
     Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Ingresa una estacion");
+
+        var estacion = scanner.nextLine().toUpperCase();
+
+
+        switch(estacion){
+            case "VERANO":
+                System.out.println("La estacion es VERANO");
+                break;
+            case "INVIERNO":
+                System.out.println("La estacion es INVIERNO");
+                break;
+
+            case  "OTOÑO":
+                System.out.println("La estacion es OTOÑO");
+                break;
+            case "PRIMAVERA":
+                System.out.println("La estacion es PRIMAVERA");
+                break;
+            default:
+                System.out.println("No es ninguna estacion");
+                break;
+        }
+
+
+
+        System.out.println("**************************************************");
 
         System.out.println("proporciona numeros positivos,negativos u 0");
         int numero = scanner.nextInt();
@@ -51,30 +78,8 @@ public class Main {
 
         System.out.println("*********************************************************************");
 
-        
-        System.out.println("Ingresa una estacion");
-
-        var estacion = scanner.nextLine().toUpperCase();
 
 
-                switch(estacion){
-                    case "VERANO":
-                        System.out.println("La estacion es VERANO");
-                        break;
-                    case "INVIERNO":
-                        System.out.println("La estacion es INVIERNO");
-                        break;
-
-                    case  "OTOÑO":
-                            System.out.println("La estacion es OTOÑO");
-                            break;
-                    case "PRIMAVERA":
-                            System.out.println("La estacion es PRIMAVERA");
-                            break;
-                    default:
-                        System.out.println("No es ninguna estacion");
-                        break;
-                }
 
 
 
